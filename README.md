@@ -13,9 +13,9 @@ In order to stock the inventory, the store wants to analyze the sales data and p
 3. Analysis Tasks
 To decide the pricing for various upcoming clothes, the store wishes to find how the style, season, and material affect the sales of a dress and if the style of the dress is more influential than its price
 
-Firstly, calculate the total sales per dress ID and save it along with the Attribute DataSet file (with column name as Total.Sales). We need to find how style, season, and material affect the sale of a dress. Since they are categorical, let us first use the analysis of variances to see if the different types make an impact.  
+    Firstly, calculate the total sales per dress ID and save it along with the Attribute DataSet file (with column name as Total.Sales). We need to find how style,     season, and material affect the sale of a dress. Since they are categorical, let us first use the analysis of variances to see if the different types make an impact.  
 
-Secondly, to check if style is more influential than the price, let us construct a linear regression model as before, with only the attributes style and price.  
+    Secondly, to check if style is more influential than the price, let us construct a linear regression model as before, with only the attributes style and price.  
 
 4. Analysis Tasks
 Also, to increase the sales, the management wants to analyze the attributes of dresses and find which are the leading factors affecting the sales of a dress.
